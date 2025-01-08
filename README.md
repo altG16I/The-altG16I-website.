@@ -16,30 +16,27 @@ Open in Code Editor: Open the project files in your preferred code editor (VS Co
 
 Project Structure:
 
-index.html: Main HTML file for the website.
-style.css: CSS file containing styles for the website.
-(Other files): Any additional files (images, JavaScript, etc.) used in the project.
-Technologies Used:
+home.html - Coded under HTML + Taiwind
+aboutme.html - Coded under HTML + Tailwind
+mywork.html - Coded under HTMl + Tailwind
+myvision.html - Coded under HTML + Tailwind 
+companiesplannigntost.html - Coded under HTML + Tailwind
+opensource.html - Coded under HTML + Tailwind
+getintouch.html - Coded under HTML + Tailwind
 
+Languages Used 
+CSS - ( Tailwind )
 HTML
-CSS (Flexbox)
+
+
 Future Enhancements:
 
-Version 2.0:
-Upgrade the visual design with a more modern and responsive layout.
-Implement JavaScript for enhanced interactivity and user experience.
-Add a contact form for user feedback and inquiries.
-Version 3.0:
-Explore using a CSS framework (e.g., Tailwind CSS) for faster development and improved maintainability.
-Consider using a build tool (e.g., Webpack) for better asset management.
-Implement accessibility features (e.g., ARIA attributes) to improve usability for users with disabilities.
-Contributing:
+Version 1.002:
+In Version there will be bug fixes and improvement in UI/UX design and those who are willing to contribute to this project kindly reach-out to me on altg16i@proton.me
+After, the launch of version 1.001 i will start working on the version 1.002
 
-Contributions are welcome! If you'd like to contribute to the project, please: mail at altg16i@proton.me
+Version 1.003:
+I am planning to add a little more feel to UI which will obviously take more time to develop ( as this is my first project of Open Source and i am learning a lot ).
 
-Fork the repository: Create a copy of the repository in your own GitHub account.
-Make your changes: Create a new branch for your changes and commit your modifications.
-Submit a pull request: Create a pull request on the original repository, explaining your changes and addressing any potential issues.
 License:
-
 This project is licensed under the [MIT] License.
