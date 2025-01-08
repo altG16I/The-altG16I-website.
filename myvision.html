@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>altG16I | My Vision</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            letter-spacing: -0.05em;
+        }
+        .line {
+            width: 100%;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .slide-in {
+            animation: slideIn 0.375s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(40px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-purple-900 to-black text-white">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-2xl font-semibold mb-8 text-left animate-intense">
+                <a href="home.html">altG16l</a>
+              </h1>
+        </header>
+        <section class="mb-12">
+            <br><br>
+            <h2 class="text-6xl font-bold mb-4 fade-in" style="font-size: 65px;">My Vision</h2>
+            <div class="line mb-4 fade-in"></div>
+            <p class="mb-4 slide-in">
+                My vision for technology is one that empowers individuals and fosters genuine human connection. I believe in a future where technology seamlessly integrates into our lives to enhance, not hinder, our experiences.
+            </p>
+            <p class="mb-4 slide-in">
+                This is why I'm driven to create innovative solutions like a truly independent mobile operating system, a revolutionary offline search engine that breaks down information barriers, and a collaborative social media platform that nurtures meaningful connections and empowers collective action. 
+                I strive to build a tech ecosystem that prioritizes user privacy, fosters innovation, and ultimately contributes to a more equitable and interconnected world.
+            </p>
+            <p class="mb-4 slide-in">
+                Key Takeaways:
+            </p>
+            <ul class="list-disc list-inside mb-4 slide-in">
+                <li>Focus on human impact: Highlighting how your projects aim to improve people's lives.</li>
+                <li>Emphasis on innovation: Stressing your commitment to pushing technological boundaries.</li>
+                <li>Ethical considerations: Mentioning values like user privacy and equity.</li>
+                <li>Grand vision: Expressing your ambition to create a positive impact on a large scale.</li>
+            </ul>
+    </div>
+</body>
+</html>
